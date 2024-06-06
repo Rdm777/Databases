@@ -22,11 +22,14 @@ This repository contains a collection of databases that I am developing during t
 
 <br>
 ## About Banks
-###Project 1: Library System
-A database to manage the books, users and loans of a university library. Includes tables for books, authors, users, and loan records.
+### Project 1: contract.sql
+Designed to manage information about departments and employees in a company. It consists of two main tables: department and employee.
 
-###Project 2: Sales Management System
-A database for a small store, allowing inventory, sales and customer control. Includes tables for products, categories, customers, sales, and sales details.
+### Project 2: teaching.sql
+The ENSINO database was created to handle information about teachers, courses and subjects at an educational institution.
 
-###Project 3: Hotel Reservation System
-A database to manage reservations and guest history at a hotel. Includes tables for rooms, reservations, guests and payments.
+### Project 3: fabrica.sql
+Created to process information from a factory or vehicle dealership.
+
+### Project 4: supply.sql
+Made to process supplier information.
