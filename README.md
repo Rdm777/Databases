@@ -1,4 +1,4 @@
-# Bancos de Dados
+# ⏹️ Bancos de Dados ⏹️
 Este repositório contém uma coleção de bancos que estou desenvolvendo durante o curso de Analise e Desenvolvimento de Sistemas.
 
 <br>
@@ -17,7 +17,7 @@ Feito para tratar as informações de fornecedores.
 
 <br><br><br><br>
 
-# Databases
+# ⏹️ Databases ⏹️
 This repository contains a collection of databases that I am developing during the Systems Analysis and Development course.
 
 <br>
