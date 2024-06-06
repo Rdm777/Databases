@@ -37,38 +37,56 @@ INSERT INTO EMPREGADO
              ,("8", "4", "Josefina Varsóvia", "31", "1996-10-11", "Secretária", "1200.00")
              ,("9", "3", "Lepeka Tossi", "26", "2000-12-12", "Secretária", "1100.00")
              ,("10", "2", "Pacífico Gerra", "31", "1997-01-01", "Vendedor", "2500.00");
-            
+
+-- Atualizar Cargo do Joao Gonzo para Engenheiro Meste.
+-- Update Joao Gonzo's Job Title to Master Engineer.
 UPDATE EMPREGADO
 SET des_cargo = "Engenheiro Meste"
 WHERE des_nom_emp = "Joao Gonzo";
 
+-- Atualizar o salario de quem tem 40 anos para 3200.00.
+-- Update the salary of those aged 40 to 3200.00.
 UPDATE EMPREGADO
 SET val_salar_emp = "3200.00"
 WHERE des_idade_emp = "40";
 
+-- Atualizar o salario de quem tem o cargo de copeira para 2300.
+-- Update the salary of those who have the role of kitchen maid to 2300.
 UPDATE EMPREGADO
 SET val_salar_emp = "2300.00"
 WHERE des_cargo = "Copeira";
 
+-- Atualizar o nome e a idade do empregado João Gonzo.
+-- Update the name and age of employee João Gonzo.
 UPDATE EMPREGADO
 SET des_nom_emp = "João Gonzzo", des_idade_emp = "37"
 WHERE des_nom_emp = "Joao Gonzo";
 
+-- Atualizar o valor do orcamento para todos os valores que sejam maior ou igual a 2000000.
+-- Update the budget value for all values ​​that are greater than or equal to 2000000.
 UPDATE DEPTO
 SET val_orcam_depto = "2500000.00"
 WHERE val_orcam_depto >= "2000000.00";
 
+-- Atualizar o local do departamento Diretoria para Prédio Central.
+-- Update the location of the Directorate department to Central Building.
 UPDATE DEPTO
 SET des_local_depto = "Prédio Central"
 WHERE nom_depto = "Diretoria";
 
+-- Atualizar a idade para quem nasceu no dia ou depois de 12/12/2000.
+-- Update age for those born on or after 12/12/2000.
 UPDATE EMPREGADO
 SET des_idade_emp = "27"
 WHERE dat_adm_emp >= "2000-12-12";
 
+-- Alterar a coluna des_cargo para des_cargo_emp.
+-- Change the des_cargo column to des_cargo_emp.
 ALTER TABLE EMPREGADO
 CHANGE des_cargo des_cargo_emp VARCHAR(20);
 
+-- Alterar a coluna des_nom_emp para receber o tipo de dado VARCHAR com 60 caracteres.
+-- Change the des_nom_emp column to receive the VARCHAR data type with 60 characters.
 ALTER TABLE EMPREGADO
 MODIFY COLUMN des_nom_emp VARCHAR(60);
 
