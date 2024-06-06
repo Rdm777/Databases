@@ -15,6 +15,9 @@ Criado para tratar as informações de uma fábrica ou concessionária de veícu
 ### Projeto 4: fornec.sql (MySql)
 Feito para tratar as informações de fornecedores.
 
+### Projeto 5: clinicaveter.sql (MySql)
+Desenvolvido para tratar informações de uma clinica veterinária.
+
 <br><br><br><br>
 
 # ⏹️ Databases ⏹️
@@ -33,3 +36,6 @@ Created to process information from a factory or vehicle dealership.
 
 ### Project 4: fornec.sql (MySql)
 Made to process supplier information.
+
+### Project 5: clinicaveter.sql (MySql)
+Developed to process information from a veterinary clinic.
