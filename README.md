@@ -2,7 +2,7 @@
 Este repositório contém uma coleção de bancos que estou desenvolvendo durante o curso de Analise e Desenvolvimento de Sistemas.
 
 <br>
-## Sobre os Bancos
+
 ### Projeto 1: contrato.sql
 Projetado para gerenciar informações sobre departamentos e empregados em uma empresa. Ele é composto por dua tabelas principais: depto e empregado.
 
@@ -21,7 +21,7 @@ Feito para tratar as informações de fornecedores.
 This repository contains a collection of databases that I am developing during the Systems Analysis and Development course.
 
 <br>
-## About Banks
+
 ### Project 1: contrato.sql
 Designed to manage information about departments and employees in a company. It consists of two main tables: department and employee.
 
