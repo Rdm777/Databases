@@ -22,14 +22,14 @@ This repository contains a collection of databases that I am developing during t
 
 <br>
 ## About Banks
-### Project 1: contract.sql
+### Project 1: contrato.sql
 Designed to manage information about departments and employees in a company. It consists of two main tables: department and employee.
 
-### Project 2: teaching.sql
+### Project 2: ensino.sql
 The ENSINO database was created to handle information about teachers, courses and subjects at an educational institution.
 
 ### Project 3: fabrica.sql
 Created to process information from a factory or vehicle dealership.
 
-### Project 4: supply.sql
+### Project 4: fornec.sql
 Made to process supplier information.
